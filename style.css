@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.form{
+    width: 100vw;
+    height:100vh;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.square{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: white;
+}
+.buttons{
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 10px;
+}
+.counterDiv{
+    display: flex;
+    display: none;
+    margin-top: 10px;
+    
+}
+#inputBox, #add{
+    margin-top: 10px;
+    display: none;
+}
+#add{
+    margin-top: 5px;
+}
